@@ -3,11 +3,11 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     font-family: 'Roboto Flex', 'Arial', sans-serif;
-     letter-spacing: 0.3px;
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.3px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
- a {
+a {
     text-decoration: none;
     /* Убирает подчеркивание */
     outline: none;
@@ -17,7 +17,7 @@ body {
 }
 
 .conteiner {
-     max-width: 600px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
     /* Центрирует контент */
@@ -63,6 +63,7 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-top: 24px;
+    margin-bottom: 224px;
 }
 
 .mosque_img {
@@ -86,14 +87,17 @@ body {
 }
 
 .buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-top: 16px;
     max-width: 361px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 110px;
+
 }
 
 .button_help {
