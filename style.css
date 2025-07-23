@@ -106,7 +106,7 @@ a {
 }
 
 .button_details {
-    background-color: #fff;
+    background: rgb(255 255 255 / 20%);
     color: #299E46;
     margin-bottom: 16px;
 }
