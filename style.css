@@ -94,21 +94,27 @@ a {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    max-width: 361px;
     width: 100%;
     margin: 0 auto;
-
+    background-color: #fff;
 }
 
 .button_help {
     color: #fff;
     background-color: #299E46;
+    max-width: 361px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8px;
 }
 
 .button_details {
-    background: rgb(255 255 255 / 20%);
+    background-color: #fff;
     color: #299E46;
     margin-bottom: 16px;
+    max-width: 361px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -126,7 +132,6 @@ a {
     cursor: pointer;
     text-decoration: none;
     transition: all 0.3s ease;
-    padding: 0 16px;
 }
 
 /* Состояния при наведении */
