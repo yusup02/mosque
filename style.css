@@ -64,6 +64,7 @@ a {
     margin: 0 auto;
     margin-top: 24px;
     margin-bottom: 224px;
+    text-align: left;
 }
 
 .mosque_img {
@@ -74,14 +75,12 @@ a {
     width: 100%;
     font-size: 32px;
     font-weight: 700;
-    text-align: left;
 }
 
 .title_text {
     display: flex;
     flex-direction: column;
     width: 100%;
-    text-align: left;
     font-size: 16px;
     font-weight: 500;
 }
@@ -117,6 +116,12 @@ a {
     margin: 0 auto;
 }
 
+.button_share {
+    background-color: #fff;
+    color: #299E46;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
 
 .buttons a,
 .buttons button {
