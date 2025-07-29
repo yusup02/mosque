@@ -5,7 +5,7 @@ shareButton.addEventListener('click', () => {
         navigator.share({
             title: 'Помощь в строительстве мечети',
             text: 'Присоединяйтесь к нам в строительстве мечети! Поделитесь этой информацией с друзьями.',
-            url: 'https://mosque.shookru.com/?utm_campaign=landing'
+            url: 'https://islamapp.ru/charity/id=1'
         })
         .then(() => console.log('Успешно поделились!'))
         .catch(error => console.error('Ошибка при попытке поделиться:', error));
